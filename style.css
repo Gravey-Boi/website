@@ -1,0 +1,63 @@
+body {
+	background-image:url("background.jfif");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-size:15px;
+	font-family:sans-serif;
+	color:white;
+}
+
+.container {
+	height:1600px;
+	width:800px;
+	position:relative;
+	left:50%;
+	margin-left:-400px;
+	margin-top:100px;
+	background-color:gray;
+	padding:50px;
+}
+
+.navigation {
+	float:left;
+	height:350px;
+	width:100px;
+	background-color:dimgray;
+}
+
+.navigation ul {
+	margin-left:-20px;
+	list-style-type:none;
+}
+
+.navigation ul li {
+	margin-bottom:8px;
+}
+
+.somethingundernavigation {
+	float:left;
+	margin-top:375px;
+	margin-left:-100px;
+	height:1025px;
+	width:100px;
+	background-color:dimgray;
+}
+
+.body {
+	float:right;
+	height:1400px;
+	width:650px;
+	background-color:dimgray;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.footer {
+	margin-top:1450px;
+	height:150px;
+	width:800px;
+	background-color:gray;
+	color:lightgray;
+	padding:10px;
+}
